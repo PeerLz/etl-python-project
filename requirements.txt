@@ -1,0 +1,26 @@
+# Core libraries for data manipulation and numerical computation
+pandas==2.2.3
+numpy==1.26.4
+
+# Database interaction
+psycopg==3.1.18
+sqlalchemy==2.0.20  # For ORM or query-building abstraction
+
+# HTTP requests and API interactions
+requests==2.31.0  # Making GET/POST requests
+httpx==0.26.0  # Optional: Modern alternative to requests with async support
+
+# File parsing and data handling
+openpyxl==3.1.2  # Excel file handling
+lxml==5.3.0  # For XML/HTML parsing, if needed
+
+# Logging
+python-json-logger==2.0.7  # JSON-structured logging
+loguru==0.7.0  # Optional: Advanced and user-friendly logging library
+
+# Development and code quality (Optional)
+autopep8==2.3.1  # Automatically format Python code
+black==24.10.0  # A powerful code formatter
+
+# Optional visualization (if needed for debugging or reporting)
+matplotlib==3.8.3
